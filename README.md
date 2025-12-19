@@ -11,11 +11,54 @@ logic building, and problem-solving skills.
 - To use this repository for learning and interview preparation
 
 ## Topics Covered
-- Variables and Data Types
-- Conditional Statements (if-else, switch)
-- Loops (for, while)
-- Functions
-- Arrays
-- Strings
-- Basic problem-solving programs
-  s
+- Basics of js
+- Variables
+- Data types
+- Variables display
+- Dialouge Boxes
+- Operators
+- Type conversion
+- Decimal counts
+- Loops
+- arrays
+- array methods 
+- Function 
+- Object
+- advance function
+- date
+- string
+- Dom 
+- Event handlers
+
+ ## Folder Structure
+   javascript codes/
+   ├──1-js_basics.js/
+   ├──2-variables_in_js.js/
+   ├──3-Data_Types.js/
+   ├──4-Variables_display.js/
+   ├──5-dialog_boxes.js/
+
+## What I Learn
+- Understanding JavaScript fundamentals and syntax
+- Working with variables, data types, and operators
+- Using conditional statements and loops
+- Writing reusable and clean functions
+- Working with arrays, strings, and objects
+- Understanding and using the DOM (Document Object Model)
+- Selecting and manipulating HTML elements using JavaScript
+- Handling events (click, input, submit, etc.)
+- Improving problem-solving and logical thinking
+- Writing clean, readable, and well-commented code
+
+
+
+## Future Improvements
+- Add more DOM-based mini projects
+- Improve code structure and readability
+- Add more real-world JavaScript examples
+
+     
+  
+   
+   
+  
