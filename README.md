@@ -35,10 +35,8 @@ logic building, and problem-solving skills.
   ## Folder Structure
 ```text
   javascript-codes/
-  ├── basics/
-  │   ├── 1-js-basics.js
-  │   ├── 2-variables_in_js.js
-  │   └── ...
+  ├── 1-js-basics.js
+  ├── 2-variables_in_js.js   
   ├── loops/
   ├── dom/
   ├── arrays/
