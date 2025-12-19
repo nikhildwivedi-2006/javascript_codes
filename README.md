@@ -32,13 +32,20 @@ logic building, and problem-solving skills.
 
  ## Folder Structure
 
-  core-java-practice/
-    ├──1-js-basics
-    ├──2-variables_in_js  
-    ├──3-Data_types
-    ├──4-Variables_display
+  ## Folder Structure
+```text
+  javascript-codes/
+  ├── basics/
+  │   ├── 1-js-basics.js
+  │   ├── 2-variables_in_js.js
+  │   └── ...
+  ├── loops/
+  ├── dom/
+  ├── arrays/
+  └── README.md
+
         
-   
+   ```
    
 
 ## What I Learn
