@@ -31,14 +31,15 @@ logic building, and problem-solving skills.
 - Event handlers
 
  ## Folder Structure
-  javascript-codes/
-├── basics/
-│   ├── 1-js-basics.js
-│   ├── 2-variables-in-js.js
-├── loops/
-├── dom/
-└── README.md
 
+  core-java-practice/
+    ├──1-js-basics
+    ├──2-variables_in_js  
+    ├──3-Data_types
+    ├──4-Variables_display
+        
+   
+   
 
 ## What I Learn
 - Understanding JavaScript fundamentals and syntax
