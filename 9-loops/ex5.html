@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Loop Demo</title>
+    <script>
+      let num,
+        sum = 0;
+      let count = 0;
+      do {
+        num = Number(prompt("Enter a number:"));
+        sum = sum + num;
+        if (num !== 0) {
+          count++;
+        }
+      } while (num !== 0);
+      document.write(`Sum is ${sum}<br>`);
+      let avg=sum / count;
+      document.write(`Avg is ${avg.toFixed(2)}<br>`);
+    </script>
+  </head>
+  <body></body>
+</html>
