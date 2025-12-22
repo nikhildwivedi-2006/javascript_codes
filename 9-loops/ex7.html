@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Loop Demo</title>
+    <script>
+      let num,
+        sumOfEven = 0,
+        sumOfOdd = 0;
+      num = Number(prompt("Enter a number"));
+      for (; ; ) {
+        if(num===0){
+            break;
+        }
+        num % 2 === 0
+          ? (sumOfEven = sumOfEven + num)
+          : (sumOfOdd = sumOfOdd + num);
+          num--;
+      }
+      document.write(`Sum of even nos is ${sumOfEven}<br>`);
+      document.write(`Sum of odd nos is ${sumOfOdd}<br>`);
+    </script>
+  </head>
+  <body></body>
+</html>
