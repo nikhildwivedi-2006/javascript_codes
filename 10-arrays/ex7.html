@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array Example</title>
+    <script>
+      let arr=[];
+      let i=0;
+      for(;;){
+        let n=Number(prompt("Enter a number:"));
+        if(n==0){
+            break;
+        }
+        arr[i]=n;
+        i++;
+      }
+      let sum=0;
+      for(let x of arr){
+        document.write(`${x}<br>`);
+        sum=sum+x;
+      }
+      document.write(`Sum of array values: ${sum}<br>`);
+      document.write(`Avg of array values: ${sum/arr.length}<br>`);
+    </script>
+  </head>
+  <body></body>
+</html>
