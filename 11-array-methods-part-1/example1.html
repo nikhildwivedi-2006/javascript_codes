@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Using push() Method</title>
+		<script>
+			let fruits = ["guava", "apple", "grapes", "banana"];
+			document.write(`Size:${fruits.length}<br>`);//4
+			document.write(`Values:${fruits}<br>`);//g,a,g,b
+
+			let size = fruits.push("orange");
+			document.write(`Size:${size}<br>`);//5
+			document.write(`Values:${fruits}<br>`);//g,a,g,b,o
+
+			size = fruits.push("kiwi", "pomengranate", "pappaya");
+			document.write(`Size:${size}<br>`);//8
+			document.write(`Values:${fruits}<br>`);//g,a,g,b,o,k,p,p
+		</script>
+	</head>
+
+	<body></body>
+</html>
