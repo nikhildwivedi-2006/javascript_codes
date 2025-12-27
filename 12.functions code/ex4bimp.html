@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>function demo</title>
+    <script>
+        function average(){
+            let sum =0;
+            for(let x of arguments){
+                sum = sum+x;
+
+            }
+            let avg = sum/arguments.length;
+            document.write(`sum is ${sum}<br>`);
+            document.write(`average is ${avg.toFixed(2)}<br>`);
+            document.write("<br><br>");
+        }
+
+        average(3,4,5);
+        average(10,20,30,40,50);
+        average(3,6);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
