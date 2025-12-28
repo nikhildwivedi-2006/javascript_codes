@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <title>Scope Ex</title>
+    <script>
+      function f1() {
+        a = 20;
+        alert(`Inside f1 a is ${a}`);
+        alert(`Inside f1 global a is ${window.a}`);
+      }
+      function f2() {
+        alert(`Inside f2 a is ${a}`);
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="call f1" onclick="f1()" />
+    <br />
+    <input type="button" value="call f2" onclick="f2()" />
+  </body>
+</html>
