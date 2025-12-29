@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>set interval and clear interval</title>
+
+    <script>
+        function setUpTimer(){
+            setInterval(showDateTime,1000);
+        }
+        function showDateTime(){
+            let x =new Date();
+            console.log(x);
+        }
+    </script>
+
+</head>
+<body>
+    <input type="button" value ="click me" onclick="setUpTimer()"/>
+    
+</body>
+</html>
