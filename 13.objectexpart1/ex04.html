@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let player = new Object();
+        player.name = "Abhishek";
+        player.surname = "sharma";
+        player.age = 25;
+        console.log("name" , player.name);//abhishek
+        console.log("age" , player.age);//25
+
+        player.age+=1;
+        console.log("after changing age : ");
+        console.log("name" , player.name);//abhishek
+        console.log("age" , player.age);//26
+
+
+        //remove property 
+        delete player.age;
+         console.log("after deleting age : ");
+        console.log("name" , player.name);//abhishek
+        console.log("age" , player.age);//26
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
