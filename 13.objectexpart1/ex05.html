@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>in operator</title>
+
+    //in operator
+
+    <script>
+        let player = new Object();
+        player.name = "Abhishek";
+        player.age= 25;
+        console.log("is name present? " ,"name" in player);//True
+        console.log("is age present? " ,"age" in player);//True
+
+        delete player.age;
+        console.log("is name present? " ,"name" in player);//True
+        console.log("is age present? " ,"age" in player);//false
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
