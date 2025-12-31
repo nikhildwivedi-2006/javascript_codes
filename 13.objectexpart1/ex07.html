@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    looping on objects
+    
+    only for in loop work on objects
+
+    <title>Document</title>
+    <script>
+         let player = new Object();
+        player.name = "Abhishek";
+        player.surname = "sharma";
+        player.age = 25;
+        player.birthplace="Delhi";
+        player.role = "Batter";
+
+
+        for(let x in player){
+            console.log(x, player[x]);
+        }
+
+         for(let x in player){
+            console.log(player[x]);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
