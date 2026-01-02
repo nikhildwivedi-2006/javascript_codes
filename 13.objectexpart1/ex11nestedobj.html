@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Nested object</title>
+    <script>
+        let person= new Object();
+        person.age =21;
+        person.name="anil";
+        
+
+        person.address = new Object();
+        person.address.houseno = 125;
+        person.address.loaclity = "indrapuri";
+        person.address.city = "bhopal";
+
+
+        console.log(`name:${person.name} , age:${person.age}`);
+
+        console.log(`houseno:${person.address.houseno},locality:${person.address.locality} , city:${person.address.city}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
