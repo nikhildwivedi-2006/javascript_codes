@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two object compare</title>
+
+    <script>
+        let a =10;
+        let b=10;
+        document.write(`a=${a} , b=${b}<br>`);
+        document.write(`${a===b}<br>`);
+
+
+        let s1 ="Bhopal";
+        let s2 ="Bhopal";
+        document.write(`s1=${s1},s2=${s2}<br>`);
+        document.write(`${s1===s2}<br>`);
+
+         let person1={
+        age:23,
+        name:"anil"
+        };
+
+        let person2={
+        age:23,
+        name:"anil"
+        };
+
+        document.write(`person1=${person1.age},${person1.name}<br>`);
+        document.write(`person2=${person2.age},${person2.name}<br>`);
+        document.write(`${person1 ===person2}<br>`);
+
+    </script>
+
+</head>
+<body>
+    <hr>
+  <p>
+    when we compare two object refrence then we get false example :
+    let a={
+        age:23,
+        name:"anil"
+    };
+
+    let b ={
+        age:23,
+        name:"anil"
+    };
+
+    a===b // it gives false 
+
+    becuase it compare only address not value and data 
+  </p>   
+</body>
+</html>
