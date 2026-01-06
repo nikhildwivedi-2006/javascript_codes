@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overiding tostring </title>
+
+    <script>
+    let person = {
+        age:23,
+        name:"Nikhil",
+
+        // toString:function(){
+        //     return`${person.age},${person.name}`;
+        // },
+    };
+
+    let arr =[10,20,30,];
+    let today = new Date();
+    document.write(`${arr}<br>`);
+    document.write(`${today}<br>`);
+    document.write(`${person}<br>`);
+</script>
+</head>
+<body>
+    
+
+    <hr>
+    <p>
+        when we pass the object refrence in the document .write the it gives <b> [object Object] </b>
+         becuase the reason is that when we pass into document .write then it call the tostring() method of object
+          and its returns kiska aur kaisa (kya hai aur kis type ka hai).
+        for avoiding this behaviour we need to override the tostring()in 
+        our code
+    </p>
+    
+</body>
+</html>
