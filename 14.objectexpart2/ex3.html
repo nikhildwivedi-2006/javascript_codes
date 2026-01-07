@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object equality</title>
+
+    <script>
+        let person1 = {
+
+            age:23,
+            name:"anil",
+
+        };
+
+        let person2 ={
+            age:23,
+            name:"anil",
+        };
+
+        document.write(`person1=${JSON.stringify(person1)}<br>`);
+        document.write(`person2=${JSON.stringify(person2)}<br>`);
+        document.write(`${JSON.stringify(person1)===JSON.stringify(person2)}<br>`);
+
+    </script>
+</head>
+<body>
+    
+    <p>
+        how to compare two object data and values not its refrence ??<br>
+
+        we can do this by using json (java script object notation )
+        json basically are of two 
+        one is js object 
+        and another one is connecting with server and we do API calling with the help of json 
+
+        but in js json is a builtin object of javascript 
+        and it has a very special method <b>Stringify()</b><br>
+         it takes anything and converts into a string<br>
+        which can converts the object data into string format and
+        when we compare two object data then its compare the data and value 
+        not its address so we get the accurate result 
+
+        <hr>
+        <hr>
+
+        so how we compare objects in js ??<br>
+        <b>we first covert them into string using the method 
+        stringify() which belongs to an object called JSON </b>
+        <br>
+        <i>it is a case sensitive</i>
+    </p>
+</body>
+</html>
