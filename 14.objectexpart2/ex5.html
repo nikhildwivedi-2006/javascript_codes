@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a=10;
+        function show(){
+            var a=20;
+            document.write(`${a}<br>`);
+            document.write(`${window.a}<br>`);
+            document.write(`${this.a}<br>`);
+
+        }
+        show();
+    </script>
+</head>
+<body>
+    <p>
+        <h3>Inside the function body this also refers the window </h3>
+    </p>
+</body>
+</html>
