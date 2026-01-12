@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let player ={
+            name:"Abhishek" ,
+            Surname:"sharma",
+            age:25,
+            display :function (){
+                document.write(`players's age:${this.age} , player's name:${this.name}`);
+
+            },
+        };
+
+        player.display();
+    </script>
+</head>
+<body>
+    <p>
+        In the method body this also refer to the owner of the object <br><br>
+        <b>player.age ki jagah this.age ka use kiya gaya hai</b>
+    </p>
+</body>
+</html>
