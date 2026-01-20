@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback function</title>
+    <script>
+        function multiply(a,b,s){
+            document.write(`Nos are ${a}, ${b}<br>`);
+            let prod = a*b;
+            s(prod);
+        }
+
+        function show(x){
+            document.write(` their product is ${x}<br>`);
+        }
+
+        multiply(2,3, show);
+
+    </script>
+</head>
+<body>
+    <p>
+        callback function is those function in which we can pass the one function as an argument to another function <br>
+        a function passed as an arguments to another function is called callback function 
+
+        <br> <br> <br>
+
+        so basically in the above code "show" is a <b>callback </b><br>
+        and multiply is a <b>HOF stands for high order function</b>
+    </p>
+</body>
+</html>
